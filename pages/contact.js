@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const contact = () => {
   return (
-    <div className='container'>
+    <div>
       <Head>
         <title>Mediavil</title>
         <link rel='icon' href='/favicon.ico' />
