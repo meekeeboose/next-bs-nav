@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <nav className='navbar navbar-expand navbar-dark bg-dark mb-4'>
+      <nav className='navbar navbar-expand navbar-dark bg-info mb-4 nav-back'>
         <div className='container'>
           <Link href='/'>
             <a className='navbar-brand'>Mediavil</a>
@@ -24,6 +24,12 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
+
+      <style jsx>{`
+        .nav-back {
+          background-color: teal;
+        }
+      `}</style>
     </div>
   );
 };

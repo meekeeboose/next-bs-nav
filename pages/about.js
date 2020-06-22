@@ -4,7 +4,7 @@ const about = () => {
   return (
     <div>
       <Head>
-        <title>Mediavil</title>
+        <title>Mediavil | About</title>
         <link rel='icon' href='/favicon.ico' />
         <link
           rel='stylesheet'
