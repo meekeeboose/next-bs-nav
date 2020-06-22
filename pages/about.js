@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default function Home() {
+const about = () => {
   return (
     <div className='container'>
       <Head>
@@ -12,10 +12,9 @@ export default function Home() {
           integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk'
           crossorigin='anonymous'></link>
       </Head>
-
-      <main>
-        <h1>This is the homepage</h1>
-      </main>
+      <h2>This is the About us page</h2>
     </div>
   );
-}
+};
+
+export default about;
