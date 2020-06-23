@@ -9,6 +9,7 @@ const Navbar = () => {
             <a className='navbar-brand'>Mediavil</a>
           </Link>
         </div>
+
         <div className='collapse navbar-collapse'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
